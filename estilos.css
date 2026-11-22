@@ -1,0 +1,105 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #1d3557;
+    text-align: center;
+    cursor: pointer; /* Indica que se puede hacer clic en el título */
+    transition: color 0.3s ease;
+}
+
+/* Párrafo destacado con clase */
+.destacado {
+    background-color: #e63946;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* Estilo circular para la foto */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #457b9d;
+}
+
+/* Tarjeta de pasatiempos */
+.tarjeta-pasatiempos {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.tarjeta-pasatiempos h2 {
+    color: #457b9d;
+    margin-top: 0;
+}
+
+/* Listas personalizadas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin: 8px 0;
+    padding: 10px;
+    border-left: 4px solid #457b9d;
+    border-radius: 4px;
+}
+
+/* Sección y estilo del botón "Entra" */
+.seccion-enlace {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.seccion-enlace h2 {
+    color: #457b9d;
+    margin-top: 0;
+}
+
+.btn-entrada {
+    background-color: #1d3557;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-entrada:hover {
+    background-color: #457b9d;
+    transform: translateY(-2px);
+}
+
+.btn-entrada:active {
+    transform: translateY(0);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #6c757d;
+}
